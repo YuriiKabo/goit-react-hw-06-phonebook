@@ -3,7 +3,6 @@ import {
   Form as FormikForm,
   Formik as FormikFormik,
   Field as FormikField,
-  ErrorMessage as FormikErrorMessage,
 } from 'formik';
 
 export const Form = styled(FormikForm)`
@@ -22,12 +21,6 @@ export const Formik = styled(FormikFormik)`
 export const Field = styled(FormikField)`
   border: 1px solid #212121;
   border-radius: 4px;
-`;
-
-export const ErrorMessage = styled(FormikErrorMessage)`
-  color: red;
-  font-size: 15px;
-  font-weight: 500;
 `;
 
 export const Label = styled.label`
